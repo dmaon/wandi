@@ -1,5 +1,5 @@
 # A simple magic wand
-This project is a implementation of a simple wand tools with python and opencv.(beta version)
+This project is a implementation of a simple magic wand tool with python and opencv.(beta version)
 
 # How to run    
 ```
