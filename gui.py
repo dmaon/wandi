@@ -195,7 +195,7 @@ class Application(Tk):
         if (self.grayImageStatusVar.get() == self.grayImageStatusValues["off"]):
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         else:
-            image = cv2.cvtColor(image, cv2.cv2.COLOR_BGR2GRAY)
+            image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
         # only shrink if image is bigger than required
         if (max_height < height or max_width < width):

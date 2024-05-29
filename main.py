@@ -6,7 +6,7 @@ if __name__ == "__main__":
     window_width = 1000
 
     app = Application(None)
-    app.title("Sample application")
+    app.title("Wandi")
     app.minsize(window_width, window_height)
     app.attributes('-zoomed', True)    
 
